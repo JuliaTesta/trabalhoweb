@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Emilys+Candy&family=Jersey+25&family=Marmelad&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ribeye&display=swap');
+
+@import url('https://s3-alpha-sig.figma.com/img/e222/b551/d39e83a7964af03bb99abbc8648d9bf5?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=AfLSFwKE62fOYgHSErZdZFTVG-T3aQEtkRMr0Iq4kGb5-IHt~3AcitEXfmvF7KdXG2Hx4JDBA6ihchwsnMbYCzL6N-YEukzuHdeoexB1mfEqBq82eBDyZYn~DMOVtuROLHI7eFtcnmCN1GTPLsNIF5c6VGTvN1v-nsNvYAuV4tB5PdV4-UGAx0ek4Ykzlh6fVNgf8yAEOQsTmF3K-w7RpGUwhSHGUkNfpBNVCmE8kd0OPvmhe3DbruVWjVplX7IqchvG6CJGRXAX1Vi3twnM7TaFK5asbHXZT3ctZaX-xJkHl1Kzm-g58UZx2Xh-hIoI0l7wV04AoymrctZtwphmoQ__');
+
+*{
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --cor1:#020C04;
+    --cor2:#1E1C1C;
+    --cor3:#52CB49;
+}
+header{
+background-color: var(--cor2);
+justify-content: space-between;
+align-items: center;
+display: flex;
+}
+.logo{
+    font-size: 30px;
+    font-family: 'Jersey 25', sans-serif;;
+    font-weight: normal;
+    color: white;
+    padding: 10px;
+    
+}
+header > p{
+    font-weight: 200px;
+    font-size: 20px;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+ nav>a{
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: "Jersey 25", sans-serif;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+a:hover{
+    text-decoration: underline;
+    color: #52CB49;
+}
+.menu{
+    display: flex;
+    gap: 30px;
+}
+.imagem{
+    margin: auto;
+    max-height: 100vh;
+    padding-left: 300px;
+}
+.texto-principal h1{
+    padding-top: 35px;
+    padding-left: 30px;
+    padding-right: 20px;
+    color: white;
+    font-variant: small-caps;
+    font-weight: normal;
+    font-size: 63px; 
+    line-height: 1.6;
+}
+.conteudo{
+    display: flex;
+    align-items: flex-start;
+    padding-left: 30px;
+    max-width: 100vh;
+    max-height: 100vh;
+}
+body{
+    background:linear-gradient(to bottom, var(--cor1),var(--cor3));
+    min-height: 100vh;
+}
