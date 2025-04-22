@@ -67,7 +67,7 @@ p{
 }
 
 .card:hover{
-    transform: scale(1.03);
+    transform: scale(1.03); /*aumenta o tamanho do conteudo em 30%*/
 }
 
 .pergunta{
@@ -91,4 +91,14 @@ a{
 a:hover{
     color: #235920;
     text-decoration: underline;
+}
+
+footer p {
+    background-color: #041207ec;
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    font-family: 'Jersey 25', sans-serif;
+    font-weight: normal;
 }
