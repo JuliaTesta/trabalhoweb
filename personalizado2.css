@@ -5,11 +5,13 @@
     margin: 0px;
     padding: 0px;
 }
+
 :root{
     --cor1:#52CB49;
     --cor2:#235920;
     --cor3:#041207ec;
 }
+
 body{
     background:linear-gradient(to bottom, var(--cor3), var(--cor1));
     min-height: 100vh;
@@ -32,9 +34,11 @@ h2{
     font-weight: normal;
     margin: 5px;
 }
+
 p{
     text-align: justify;
 }
+
 .pergunta{
     margin: 10px;
     font-size: 20px;
