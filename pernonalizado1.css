@@ -83,3 +83,26 @@ body{
     background:linear-gradient(to bottom, var(--cor1),var(--cor3));
     min-height: 100vh;
 }
+
+@media (max-width:700px) {
+    
+header{
+    flex-direction: column;
+    align-items:flex-start;
+}
+.conteudo{
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+.texto-principal h1{
+    font-size: 3rem;
+}
+.imagem{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-left: 0;
+
+}
+}

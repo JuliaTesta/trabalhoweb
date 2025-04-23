@@ -102,3 +102,12 @@ footer p {
     font-family: 'Jersey 25', sans-serif;
     font-weight: normal;
 }
+
+@media  (max-width:700px) {
+    .card{
+        max-width: 400px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+}
