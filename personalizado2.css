@@ -105,7 +105,7 @@ footer p {
 
 @media  (max-width:600px) {
     .card{
-        max-width: 300px;
+        max-width: 330px;
         padding-left: 10px;
         padding-right: 10px;
     }
