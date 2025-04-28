@@ -18,14 +18,56 @@ body{
 }
 
 header{
-    color: white;
-    background-color:#041207a0 ;
-    text-align: center;
-    padding: 10px;
-    font-family: 'Jersey 25', sans-serif;
-    font-size: 30px;
-    font-weight: normal;
+    background-color:rgb(28, 28, 28);
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 8px 15px;
+    }
+    .logo{
+        font-size: 30px;
+        font-family: 'Jersey 25', sans-serif;;
+        font-weight: normal;
+        color: white;
+        
+    }
+    header > p{
+        font-weight: 200px;
+        font-size: 20px;
+        color: white;
+        padding: 0px;
+        margin: 0px;
+        padding-bottom: 10px;
+    }
+     nav>a{
+        color: white;
+        text-decoration: none;
+        font-weight: normal;
+        font-size: 20px;
+        font-family: "Jersey 25", sans-serif;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    a:hover{
+        text-decoration: underline;
+        color: #52CB49;
+    }
+    .menu{
+        display: flex;
+        gap: 30px;
+    }
+
+@media (max-width:500px) {
+    
+    header{
+        flex-direction: column;
+        align-items:flex-start;
+        background: 100%;
+    }
+   
 }
+
 
 h2{
     color: white;
