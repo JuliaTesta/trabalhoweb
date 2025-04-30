@@ -70,7 +70,47 @@ header{
         padding-top: 20px;
     }
     
-    
+    .imgcss{
+        width: 300px;
+        height: 200px;
+        padding-top: 20px;
+        border-radius: 10px;
+    }
+    div#html{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        
+    }
+    .imgcss img{
+        width: 100%;
+        height: auto;
+        box-shadow: 2px 2px solid rgba(0, 0, 0, 0.5);
+    }
+
+    .back{
+        width: 300px;
+        height: 200px;
+        padding-top: 20px;
+        border-radius: 10px;
+    }
+    .back img{
+        width: 100%;
+        height: auto;
+        box-shadow: 2px 2px solid rgba(0, 0, 0, 0.5);
+    }
+    .mobile{
+        width: 300px;
+        height: 200px;
+        padding-top: 20px;
+        border-radius: 10px;
+    }
+    .mobile img{
+        width: 100%;
+        height: auto;
+        box-shadow: 2px 2px solid rgba(0, 0, 0, 0.5);
+    }
     
 @media (max-width:700px) {
     
