@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+.logo {
+    font-size: 30px;
+    font-family: 'Jersey 25', sans-serif;
+}
+
 :root {
     --cor1: #020C04;
     --cor2: #1E1C1C;
@@ -49,7 +54,7 @@ main {
 }
 
 
-h2 {
+h1 {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 40px;
     margin-bottom: 20px;
