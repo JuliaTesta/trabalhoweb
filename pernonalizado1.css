@@ -87,6 +87,9 @@ a:hover{
     max-height: 100vh;
     
 }
+.conteudo h1{
+    padding-left: 40px;
+}
 body{
     background:linear-gradient(to bottom, var(--cor1),var(--cor3));
     min-height: 100vh;
