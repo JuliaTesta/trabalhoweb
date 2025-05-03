@@ -63,10 +63,12 @@ a:hover{
     display: flex;
     gap: 30px;
 }
-.imagem{
+.imagem img{
     margin: auto;
     max-height: 100vh;
-    padding-left: 300px;
+    padding-left:250px;
+    height: 500px;
+    padding-top: 30px;
     
 }
 .texto-principal h1{
@@ -117,11 +119,11 @@ nav a{
 .texto-principal h1{
     font-size: 3rem;
 }
-.imagem{
+.imagem img{
     display: flex;
     justify-content: center;
     width: 100%;
-    padding-left: 0;
+    padding-left: 50px;
     margin-bottom: 0px;
     
 }
