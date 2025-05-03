@@ -125,6 +125,7 @@ header{
 .menu{
     display: block;
 }
+
 }
 h2{
     color: white;
@@ -203,7 +204,7 @@ footer p {
 
 @media  (max-width:600px) {
     .card{
-        max-width: 330px;
+        max-width: 400px;
         padding-left: 10px;
         padding-right: 10px;
     }
