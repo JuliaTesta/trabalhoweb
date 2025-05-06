@@ -25,6 +25,7 @@ display: flex;
 
 h1{
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.681);
+    text-align: center;
 }
 .logo{
     font-size: 30px;
@@ -64,29 +65,35 @@ a:hover{
     gap: 30px;
 }
 .imagem img{
-    margin: auto;
-    max-height: 100vh;
-    padding-left:250px;
-    height: 500px;
-    padding-top: 30px;
-    
+    width: 100%;
+    height: 0 auto;
+    max-width: 375px;
+}
+.imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 .texto-principal h1{
-    padding-top: 35px;
-    padding-left: 30px;
-    padding-right: 20px;
+    text-align: center;
     color: white;
     font-variant: small-caps;
     font-weight: normal;
     font-size: 63px; 
-    line-height: 1.6;
+}
+.texto-principal{
+    max-width: 10000px;
+    width: 100%;
 }
 .conteudo{
     display: flex;
     align-items: flex-start;
-    padding-left: 30px;
+    padding-left: 40px 20px;
+    text-align: center;
     max-width: 100%;
     max-height: 100vh;
+    flex-direction: column;
     
 }
 .conteudo h1{
