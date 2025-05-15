@@ -36,6 +36,7 @@ h1{
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.681);
     text-align: center;
 }
+
 .logo{
     font-size: 30px;
     font-family: 'Jersey 25', sans-serif;;
@@ -113,7 +114,7 @@ a:hover{
 }
 body{
     background:linear-gradient(to bottom, var(--cor1),var(--cor3));
-    overflow: ;
+    
 }
 button{
     background-color:#1E1C1C;
