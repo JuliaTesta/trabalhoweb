@@ -12,9 +12,18 @@ body{
     padding: 0px;
 }
 :root{
+    --cor1:rgba(224, 222, 222, 0.932);
+    --cor2:rgba(126, 126, 126, 0.918);
+    --cor3:#46993fdc;
+    --cor4:black;
+}
+[data-theme="dark"]{
     --cor1:#020C04;
     --cor2:#1E1C1C;
     --cor3:#52CB49;
+    --cor4:white;
+    --cor5: rgba(75, 75, 75, 0.952);
+    
 }
 header{
 background-color: var(--cor2);
@@ -31,7 +40,7 @@ h1{
     font-size: 30px;
     font-family: 'Jersey 25', sans-serif;;
     font-weight: normal;
-    color: white;
+    color: var(--cor4);
     padding: 10px;
     
 }
@@ -44,7 +53,7 @@ header > p{
     padding-bottom: 10px;
 }
  nav>a{
-    color: white;
+    color: var(--cor4);
     text-decoration: none;
     font-weight: normal;
     font-size: 20px;
@@ -55,7 +64,7 @@ header > p{
 }
 a:hover{
     text-decoration: underline;
-    color: #52CB49;
+    color:var(--cor5);
 
     transform: translate(-2px,-2px);
     transition: 0.2s;
@@ -78,7 +87,7 @@ a:hover{
 }
 .texto-principal h1{
     text-align: center;
-    color: white;
+    color: var(--cor4);
     font-variant: small-caps;
     font-weight: normal;
     font-size: 63px; 
@@ -103,7 +112,28 @@ a:hover{
 }
 body{
     background:linear-gradient(to bottom, var(--cor1),var(--cor3));
-    min-height: 100vh;
+    
+}
+button{
+    background-color:#1E1C1C;
+    padding: .4rem;
+    margin-left: 20px;
+    margin-bottom: 8px;
+
+    border: none;
+    border-radius: 50%;
+
+    width: 50px;
+    height: 50px;
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+button:hover{
+    background-color:var(--cor1);
+    transition: .4s;
+    cursor: pointer;
 }
 
 @media (max-width:600px) {

@@ -11,12 +11,20 @@
     font-family: 'Jersey 25', sans-serif;
 }
 
-:root {
-    --cor1: #020C04;
-    --cor2: #1E1C1C;
-    --cor3: #52CB49;
+:root{
+    --cor1:rgba(224, 222, 222, 0.932);
+    --cor2:rgba(126, 126, 126, 0.918);
+    --cor3:#46993fdc;
+    --cor4:black;
 }
-
+[data-theme="dark"]{
+    --cor1:#020C04;
+    --cor2:#1E1C1C;
+    --cor3:#52CB49;
+    --cor4:white;
+    --cor5: rgba(75, 75, 75, 0.952);
+    
+}
 body {
     background: linear-gradient(to bottom, var(--cor1), var(--cor3));
     font-family: 'Marmelad', sans-serif;
@@ -33,10 +41,12 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-
+.logo{
+    color: var(--cor4);
+}
 
 nav a {
-    color: white;
+    color: var(--cor4);
     text-decoration: none;
     font-family: 'Jersey 25', sans-serif;
     font-size: 20px;
@@ -44,7 +54,7 @@ nav a {
 }
 
 nav a:hover {
-    color: var(--cor3);
+    color: var(--cor5);
     text-decoration: underline;
 }
 
@@ -62,6 +72,7 @@ h1 {
     padding-top: 20px;
     padding-right: 20px;
     text-align: center;
+    color: var(--cor4);
 }
 
 p {
@@ -75,6 +86,7 @@ footer {
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
+    color: var(--cor4);
 }
 .menu{
     display: flex;

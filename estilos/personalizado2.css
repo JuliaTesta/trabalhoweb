@@ -7,18 +7,27 @@
 }
 
 :root{
-    --cor1:#52CB49;
-    --cor2:#235920;
-    --cor3:#041207ec;
+    --cor1:rgba(224, 222, 222, 0.932);
+    --cor2:rgba(126, 126, 126, 0.918);
+    --cor3:#46993fdc;
+    --cor4:black;
 }
-
+[data-theme="dark"]{
+    --cor1:#020C04;
+    --cor2:#1E1C1C;
+    --cor3:#52CB49;
+    --cor4:white;
+    --cor5: rgba(75, 75, 75, 0.952);
+    
+}
 body{
-    background:linear-gradient(to bottom, var(--cor3), var(--cor1));
+    background:linear-gradient(to bottom, var(--cor1), var(--cor3));
     min-height: 100vh;
+   
 }
 
 header{
-    background-color:rgb(28, 28, 28);
+    background-color:var(--cor2);
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -29,19 +38,30 @@ header{
         font-size: 30px;
         font-family: 'Jersey 25', sans-serif;;
         font-weight: normal;
-        color: white;
+        color:var(--cor4);
         
     }
+    .card{
+        background-color: var(--cor3);
+        color: var(--cor1);
+    }
+    
     header > p{
         font-weight: 200px;
         font-size: 20px;
-        color: white;
+        color:var(--cor4);
         padding: 0px;
         margin: 0px;
         padding-bottom: 10px;
     }
+    h2{
+        color: var(--cor4);
+    }
+    ul{
+        color: var(--cor4);
+    }
      nav>a{
-        color: white;
+        color:var(--cor4);
         text-decoration: none;
         font-weight: normal;
         font-size: 20px;
@@ -55,7 +75,6 @@ header{
         color: #52CB49;
       
     }
-
     .menu{
         display: flex;
         gap: 30px;
@@ -66,10 +85,24 @@ header{
         font-family: 'Bebas Neue', sans-serif;
         font-size: 40px;
         margin-bottom: 20px;
-        color: white;
+        color: var(--cor4);
         padding-top: 20px;
     }
-    
+    p{
+        color: var(--cor4);
+    }
+    h3{
+        color: var(--cor4);
+    }
+    a{
+        color: var(--cor4);
+    }
+    .pergunta{
+        color: var(--cor4);
+    }
+    .habilidade{
+        color: var(--cor4);
+    }
     .imgcss{
         width: 300px;
         height: 200px;
@@ -118,7 +151,7 @@ header{
         flex-direction: column;
         align-items:flex-start;
         background: 100%;
-        background-color:rgb(28, 28, 28) ;
+        background-color:var(--cor2) ;
     }
    
 
@@ -128,7 +161,7 @@ header{
 
 }
 h2{
-    color: white;
+    color: var(--cor4);
     padding-top:10px ;
     font-family: 'Jersey 25', sans-serif;
     font-weight: normal;
@@ -174,11 +207,7 @@ p{
     display: block;
     padding: 5px;
 }
-.oportunidade:hover{
-    color:black;
-    border-radius: 10px;
-    padding: 10px;
-}
+
 a{
     color: white;
     text-align: center;
@@ -188,13 +217,13 @@ a{
 }
 
 a:hover{
-    color: #52CB49;
+    color: var(--cor5);
     text-decoration: underline;
 }
 
 footer p {
-    background-color: #041207ec;
-    color: white;
+    background-color:var(--cor2);
+    color: var(--cor4);
     text-align: center;
     display: block;
     padding: 20px;
