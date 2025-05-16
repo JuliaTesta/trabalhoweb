@@ -11,12 +11,15 @@
     font-family: 'Jersey 25', sans-serif;
 }
 
+
 :root{
-    --cor1:rgba(224, 222, 222, 0.932);
-    --cor2:rgba(126, 126, 126, 0.918);
-    --cor3:#46993fdc;
-    --cor4:black;
+        --cor1: #e9f5ee;
+        --cor2:  #c9f2c5;
+        --cor3: #52CB49;
+        --cor4: #1E1C1C;
+        --cor5: #a9b8aa;
 }
+
 [data-theme="dark"]{
     --cor1:#020C04;
     --cor2:#1E1C1C;
@@ -82,7 +85,7 @@ p {
 }
 
 footer {
-    background-color: var(--cor2);
+    background-color: var(--cor5);
     text-align: center;
     padding: 15px 0;
     font-size: 16px;

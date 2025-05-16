@@ -7,17 +7,18 @@
 }
 
 :root{
-    --cor1:rgba(224, 222, 222, 0.932);
-    --cor2:rgba(126, 126, 126, 0.918);
-    --cor3:#46993fdc;
-    --cor4:black;
+    --cor1: #e2deded8;
+    --cor2: #c9f2c5;
+    --cor3: #52CB49;
+    --cor4: #1E1C1C;
+    --cor5: #a9b8aa;
 }
 [data-theme="dark"]{
     --cor1:#020C04;
     --cor2:#1E1C1C;
     --cor3:#52CB49;
     --cor4:white;
-    --cor5: rgba(75, 75, 75, 0.952);
+    --cor5:rgba(75, 75, 75, 0.952);
     
 }
 body{
@@ -178,8 +179,8 @@ p{
 }
 
 .card {
-    background-color:#0412078d ;
-    border: 1px solid #0412071d;
+    background-color:var(--cor5) ;
+    border: 0.5px solid #0412071d;
     border-radius: 10px;
     padding: 30px;
     margin: 20px;
@@ -222,7 +223,7 @@ a:hover{
 }
 
 footer p {
-    background-color:var(--cor2);
+    background-color:var(--cor5);
     color: var(--cor4);
     text-align: center;
     display: block;
